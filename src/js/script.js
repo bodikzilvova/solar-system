@@ -15,6 +15,10 @@ import uranusRingTexture from "../img/uranus ring.png";
 import neptuneTexture from "../img/neptune.jpg";
 import plutoTexture from "../img/pluto.jpg";
 
+var ghpages = require("gh-pages");
+
+ghpages.publish("dist", function (err) {});
+
 const renderer = new THREE.WebGLRenderer();
 
 renderer.setSize(window.innerWidth, window.innerHeight);
