@@ -15,7 +15,7 @@ import uranusRingTexture from "../img/uranus ring.png";
 import neptuneTexture from "../img/neptune.jpg";
 import plutoTexture from "../img/pluto.jpg";
 
-var ghpages = require("gh-pages");
+import ghpages from "gh-pages";
 
 ghpages.publish("dist", function (err) {});
 
